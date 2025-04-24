@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/output.css">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="bg-prjstone-100 flex justify-center items-center md:py-[124px]">
+    <article class="bg-white md:w-[736px] md:rounded-[20px] my-auto">
+      <!-- Image section -->
+      <section class="md:p-10 md:pb-0">
+        <img class="w-full h-[171px] md:h-[300px] md:rounded-xl object-cover" src="./assets/images/image-omelette.jpeg" alt="Omelette">
+      </section>
+      <!-- End of Image section -->
+
+      <!-- Text content -->
+      <div class="p-9">
+        <!-- Introduction section -->
+        <section class="mb-8">
+          <h1 class="font-young-serif text-4xl leading-[100%] text-prjstone-900 pb-5">
+            Simple Omelette Recipe
+          </h1>
+          <p class="font-outfit text-[16px] leading-[150%] text-prjstone-600">
+            An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+            to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+          </p>
+        </section>
+      
+        <!-- Preparation section -->
+        <section class="bg-prjrose-50 p-6 rounded-2xl">
+          <h3 class="font-outfit text-xl text-prjrose-800 font-semibold mb-2.5">
+            Preparation time
+          </h3>
+      
+            <ul class="font-outfit text-[16px] leading-[150%] list-none pl-2.5 text-prjstone-600">
+              <li class="relative pl-6 mb-2 before:content-[''] before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:h-1 before:w-1 before:bg-prjrose-800">
+                <span class="font-bold">Total</span>: Approximately 10 minutes
+              </li>
+              <li class="relative pl-6 mb-2 before:content-[''] before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:h-1 before:w-1 before:bg-prjrose-800">
+                <span class="font-bold">Preparation</span>: 5 minutes
+              </li>
+              <li class="relative pl-6 before:content-[''] before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:h-1 before:w-1 before:bg-prjrose-800">
+                <span class="font-bold">Cooking</span>: 5 minutes
+              </li>
+            </ul>
+        </section>
+      
+        <!-- Ingredients sections -->
+        <section class="py-8 border-b border-b-prjstone-150">
+          <h2 class="font-young-serif text-[28px] leading-[100%] text-prjbrown-800 pb-5">
+            Ingredients
+          </h2>
+      
+          <ul class="font-outfit text-[16px] leading-[150%] text-prjstone-600 list-none pl-2.5">
+            <li class="relative pl-6 mb-2 before:content-[''] before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:h-1 before:w-1 before:bg-prjbrown-800">
+              2-3 large eggs
+            </li>
+            <li class="relative pl-6 mb-2 before:content-[''] before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:h-1 before:w-1 before:bg-prjbrown-800">
+              Salt, to taste
+            </li>
+            <li class="relative pl-6 mb-2 before:content-[''] before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:h-1 before:w-1 before:bg-prjbrown-800">
+              Pepper, to taste
+            </li>
+            <li class="relative pl-6 mb-2 before:content-[''] before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:h-1 before:w-1 before:bg-prjbrown-800">
+              1 tablespoon of butter or oil
+            </li>
+            <li class="relative pl-6 mb-2 before:content-[''] before:absolute before:left-0 before:top-[50%] before:translate-y-[-50%] before:h-1 before:w-1 before:bg-prjbrown-800">
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
+          </ul>
+        </section>
+      
+        <!-- Instructions sections -->
+        <section class="py-8 border-b border-b-prjstone-150">
+          <h2 class="font-young-serif text-[28px] leading-[100%] text-prjbrown-800 pb-5">
+            Instructions
+          </h2>
+      
+          <ol class="font-outfit font-normal text-[16px] leading-[150%] text-prjstone-600 list-none">
+            <li class="pl-2 mb-3 flex"> 
+              <div class="mr-5 font-semibold text-prjbrown-800">
+                1.
+              </div>
+              <div>
+                <span class="font-bold">Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+                You can add a tablespoon of water or milk for a fluffier texture.
+              </div>
+            </li>
+            <li class="pl-2 mb-3 flex">
+              <div class="mr-5 font-semibold text-prjbrown-800">
+                2.
+              </div>
+              <div>
+                <span class="font-bold">Heat the pan</span>: 
+                Place a non-stick frying pan over medium heat and add butter or oil.
+              </div>
+            </li>
+            <li class="pl-2 mb-3 flex">
+              <div class="mr-5 font-semibold text-prjbrown-800">
+                3.
+              </div>
+              <div>
+                <span class="font-bold">Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+                the eggs evenly coat the surface.
+              </div>
+            </li>
+            <li class="pl-2 mb-3 flex">
+              <div class="mr-5 font-semibold text-prjbrown-800">
+                4.
+              </div>
+              <div>
+                <span class="font-bold">Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the
+                middle, sprinkle your chosen fillings over one half of the omelette.
+              </div>
+            </li>
+            <li class="pl-2 mb-3 flex">
+              <div class="mr-5 font-semibold text-prjbrown-800">
+                5.
+              </div>
+              <div>
+                <span class="font-bold">Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over the
+                fillings. Let it cook for another minute, then slide it onto a plate.
+              </div>
+            </li>
+            <li class="pl-2 mb-3 flex">
+              <div class="mr-5 font-semibold text-prjbrown-800">
+                6.
+              </div>
+              <div>
+                <span class="font-bold">Enjoy</span>: Serve hot, with additional salt and pepper if needed.
+              </div>
+            </li>
+          </ol>
+        </section>
+      
+        <!-- Nutrition sections -->
+        <section class="py-8">
+          <h2 class="font-young-serif text-[28px] leading-[100%] text-prjbrown-800 mb-5">
+            Nutrition
+          </h2>
+          <p class="mb-5 font-outfit font-normal text-[16px] leading-[150%] text-prjstone-600 ">
+            The table below shows nutritional values per serving without the additional fillings.
+          </p>
+          <table class="table-fixed w-full border-collapse">
+            <tbody class="text-prjstone-600">
+              <tr>
+                <td class="py-3 pl-8 text-[16px] leading-[150%] border-b border-prjstone-150">Calories</td>
+                <td class="py-3 pl-3 font-bold text-prjbrown-800 border-b border-prjstone-150">277kcal</td>
+              </tr>
+              <tr>
+                <td class="py-3 pl-8 text-[16px] leading-[150%] border-b border-prjstone-150">Carbs</td>
+                <td class="py-3 pl-3 font-bold text-prjbrown-800 border-b border-prjstone-150">0g</td>
+              </tr>
+              <tr>
+                <td class="py-3 pl-8 text-[16px] leading-[150%] border-b border-prjstone-150">Protein</td>
+                <td class="py-3 pl-3 font-bold text-prjbrown-800 border-b border-prjstone-150">20g</td>
+              </tr>
+              <tr>
+                <td class="py-3 pl-8 text-[16px] leading-[150%] ">Fat</td>
+                <td class="py-3 pl-3 font-bold text-prjbrown-800">22g</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+       <!-- End of text content -->
+    </article>
+  </main>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
